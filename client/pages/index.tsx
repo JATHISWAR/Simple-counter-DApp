@@ -11,7 +11,7 @@ import Link from "next/link"
 
 const Home: NextPage = () => {
 	const [counter, setCounter] = useState("0")
-	const contractAddress = "0x87EC544C2bB56E4818D8d8E65c2f59099b668E1f"
+	const contractAddress = "YOUR_CONTRACT_ADDRESS"
 	const { contract } = useContract(contractAddress)
 	const sdk = useSDK()
 
