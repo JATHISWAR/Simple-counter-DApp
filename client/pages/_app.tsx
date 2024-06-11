@@ -5,7 +5,7 @@ import { Sepolia } from "@thirdweb-dev/chains"
 
 function MyApp({ Component, pageProps }: AppProps) {
 	return (
-		<ThirdwebProvider activeChain={Sepolia} clientId="441c50e709c92f69229e26b29306d10c">
+		<ThirdwebProvider activeChain={Sepolia} clientId="YOUR_API_KEY">
 			<Component {...pageProps} />
 		</ThirdwebProvider>
 	)
